@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:paddingHorizontal="16dp"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageWisataDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lawang_sewu"/>
+
+    <TextView
+        android:id="@+id/titleWisataDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Lawang Sewu"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/descriptionWisataDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="lawang sewu"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>
